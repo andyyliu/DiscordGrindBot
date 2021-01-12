@@ -1,5 +1,5 @@
 import discord, requests, json, random
-from words import *
+from words import ball, day
 
 def commands(message):
     username = '@' + message.author.name
