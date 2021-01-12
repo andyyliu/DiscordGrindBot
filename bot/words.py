@@ -1,9 +1,9 @@
 # common greetings
-greetings = ['hi', 'hello', 'hey', 'whats up', 'yo', 'sup', 'gm', 'good afternoon']
+greetings = ['hi', 'hello', 'hey', 'whats up', 'sup', 'gm', 'good afternoon']
 
 # words that mean sadness
 sad = ['sad', 'lonely', 'depression', 'depressed', 'sadboi', 'tough', 'sadness', 'alone', 'pain'
-,'suicide', 'hate my life', 'i failed', 'want to die', 'want to kill myself', 'fml']
+,'suicide', 'hate my life', 'i failed', 'want to die', 'want to kill myself', 'fml', 'kms']
 
 # 8ball answers
 ball =['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes – definitely', 'You may rely on it'

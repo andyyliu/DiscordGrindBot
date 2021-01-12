@@ -1,7 +1,5 @@
-import discord
-import requests
-import json
-import random
+import discord, requests, json, random, os
+from dotenv import load_dotenv
 from messages import messages
 from commands import commands
 
@@ -30,5 +28,6 @@ async def on_message(message):
         for line in phrase:
             await message.channel.send(line)
 
-token = 'Nzk4NjA4NDM1MjcyODc2MDQx.X_3gEA.eGBSiy5tR6nl23BoYJdDbWIvV30'
-client.run(token)
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
+client.run(TOKEN)
