@@ -1,0 +1,5 @@
+1. greet new discord members
+2. !focus x: command that allows user to focus for an x amount of minutes, if accomplished, will receive certain
+amount of points, need to find a way to track if user avoids games
+3. spotify implementation?
+4. reaction to certain messages sent
