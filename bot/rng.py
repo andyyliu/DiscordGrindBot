@@ -1,7 +1,7 @@
 import discord, requests, json, random
 from words import ball, day
 
-def commands(message):
+def rng(message):
     username = '@' + message.author.name
 
     # Return a list of commands
