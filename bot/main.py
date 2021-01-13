@@ -5,7 +5,7 @@ from messages import messages
 from rng import rng
 
 # other classes to use
-extensions = ["messages", "rng", "economy"]
+# extensions = ["messages", "rng", "economy"]
 
 # client = discord.Client()
 client = commands.Bot(command_prefix = '!')
