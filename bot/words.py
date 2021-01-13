@@ -3,7 +3,7 @@ greetings = ['hi', 'hello', 'hey', 'whats up', 'sup', 'gm', 'good afternoon']
 
 # words that mean sadness
 sad = ['sad', 'lonely', 'depression', 'depressed', 'sadboi', 'tough', 'sadness', 'alone', 'pain'
-,'suicide', 'hate my life', 'i failed', 'want to die', 'want to kill myself', 'fml', 'kms']
+,'suicide', 'hate my life', 'i failed', 'want to die', 'kill myself', 'fml', 'kms', 'hang myself']
 
 # 8ball answers
 ball =['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes – definitely', 'You may rely on it'
