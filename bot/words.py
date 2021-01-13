@@ -1,5 +1,5 @@
 # common greetings
-greetings = ['hi', 'hello', 'hey', 'whats up', 'sup', 'gm', 'good afternoon']
+greetings = ['hi', 'hello', 'hey', 'whats up', 'sup', 'gm', 'good afternoon', 'hihi']
 
 # words that mean sadness
 sad = ['sad', 'lonely', 'depression', 'depressed', 'sadboi', 'tough', 'sadness', 'alone', 'pain'
