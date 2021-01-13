@@ -5,23 +5,23 @@ def rng(message):
     username = '@' + message.author.name
 
     # Return a list of commands
-    if message.content == '!help':
+    if message.content.startswith('!help'):
         phrase = ['A list of currently avaiable commands are: !dice, !coin, !8ball, !day, and !help']
         return phrase
 
     # Return a random number from 1-6 when !dice is sent
-    if message.content == '!dice':
+    if message.content.startswith('!dice'):
         phrase = [username + ' takes a deep breath, and rolls the die, the number is.....' + str(random.randint(1, 6)) + '!']
         return phrase
 
     # Return heads or tails when !coin is sent
-    if message.content == '!coin':
+    if message.content.startswith('!coin'):
         result = ['heads', 'tails']
         phrase = [username + ' flips the coin as high as possible, it lands on.....' + result[random.randint(0, 1)] + '!']
         return phrase
     
     # Return an 8ball answer
-    if message.content == '!8ball':
+    if message.content.startswith('!8ball'):
         phrase = [username + ' shakes the ball hard, it responds: ' + ball[random.randint(0, len(ball) - 1)]]
         return phrase
     
