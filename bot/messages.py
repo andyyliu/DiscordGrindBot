@@ -3,9 +3,9 @@ from words import greetings, sad
 
 def messages(message):
     username = '@' + message.author.name
-
+    message_array = message.content.split(" ")
     # Respond when a message thats starts with string in greetings is sent
-    if message.content.startswith(tuple(greetings)):
+    if message_array[0] in greetings:
         phrase = ['Hi ' + username + ' how are you?']
         return phrase
 
