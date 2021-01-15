@@ -1,11 +1,11 @@
 # Discord 'Grind Bot' Features
 
-1. Respond to specific messages sent on Discord server
-2. RNG aspects such as dice rolls and coin flips
+1. messages.py: Responds to specific messages sent on server
+2. rng.py: Returns random elements such as coin flips and dice rolls
+3. date.py: Returns current date and time
 
 Future Work:
 
 1. Include economy feature
 2. Include image uploads
-3. Create cog system
-4. !stock command
+3. !stock command
