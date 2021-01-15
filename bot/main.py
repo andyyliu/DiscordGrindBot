@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from messages import messages
 
 # cogs
-extensions = ['rng']
+extensions = ['rng', 'cog_messages']
 
 bot = commands.Bot(command_prefix = '!', case_insensitive = True)
 

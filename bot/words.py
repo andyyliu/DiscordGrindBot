@@ -1,5 +1,5 @@
 # common greetings
-greetings = ['hi', 'hello', 'hey', 'hii', 'sup', 'gm', 'helloo', 'hihi']
+greetings = ['hi', 'hello', 'hey', 'hii', 'sup', 'gm', 'helloo', 'hihi', 'hola']
 
 # greeting responses
 g_responses = ['how are you', 'how\'s life', 'how you doing', 'what\'s up', 'what are you up to'
