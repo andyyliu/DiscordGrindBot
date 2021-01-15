@@ -5,13 +5,13 @@ from messages import messages
 from rng import rng
 
 # cogs
-extensions = ["messages", "rng", "economy"]
+extensions = ['cog_rng']
 
 bot = commands.Bot(command_prefix = '!', case_insensitive = True)
 
-# if __name__ == '__main__':
-#     for ext in extensions:
-#         bot.load_extension(ext)
+if __name__ == '__main__':
+    for ext in extensions:
+        bot.load_extension(ext)
 
 # Initial login
 @bot.event
