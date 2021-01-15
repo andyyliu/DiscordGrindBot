@@ -8,3 +8,4 @@ Future Work:
 1. Include economy feature
 2. Include image uploads
 3. Create cog system
+4. !stock command
