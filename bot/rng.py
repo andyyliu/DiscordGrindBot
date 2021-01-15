@@ -1,6 +1,7 @@
 import discord, random
 from words import ball, day
 from discord.ext import commands
+from messages import get_quote
 
 
 class Decisions(commands.Cog):
@@ -43,6 +44,12 @@ class Decisions(commands.Cog):
     async def _8ball(self, ctx):
         username = ctx.author.mention
         await ctx.send(username + ' shakes the ball hard, it responds: ' + ball[random.randint(0, len(ball) - 1)])
+
+
+    # Generate a random motivational quote
+    @commands.command()
+    async def quote(self, ctx):
+        await ctx.send(get_quote())
 
 
 # Add class to bot
