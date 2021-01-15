@@ -20,6 +20,12 @@ class Messages(commands.Cog):
             await message.channel.send('Cheer up, life gets better! ' + username + ', here\'s an inspirational quote for you :\)') 
             await message.channel.send(username  + ': ' + inspirational_quote)
 
+    @commands.Cog.listener()
+    async def on_member_join(self, member):
+        channel = member.guild.system_channel
+        if channel is not None:
+            await channel.send(f'Hi {member.mention}, welcome to The Skate Park!')        
+
 
 # Gets a quote from zenquotes.io
 def get_quote():
