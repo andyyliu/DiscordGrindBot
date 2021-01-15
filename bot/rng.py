@@ -17,7 +17,7 @@ def rng(message):
     # Return heads or tails when !coin is sent
     if message.content.startswith('!coin'):
         result = ['heads', 'tails']
-        phrase = [username + ' flips the coin as high as possible, it lands on.....' + result[random.randint(0, 1)] + '!']
+        phrase = [username + ' flips the coin as high as possible, it lands on.....' + result[random.randint(0, len(result)- 1)] + '!']
         return phrase
     
     # Return an 8ball answer

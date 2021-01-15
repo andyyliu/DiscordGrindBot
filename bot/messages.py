@@ -1,12 +1,12 @@
 import discord, requests, json, random
-from words import greetings, sad
+from words import greetings, g_responses, sad
 
 def messages(message):
     username = '@' + message.author.name
     message_array = message.content.split(" ")
     # Respond when a message thats starts with string in greetings is sent
     if message_array[0] in greetings:
-        phrase = ['Hi ' + username + ' how are you?']
+        phrase = ['Hi ' + username + ', ' + g_responses[random.randint(0, len(g_responses) - 1)] +'?']
         return phrase
 
     # Respond when a message with string in sad is sent

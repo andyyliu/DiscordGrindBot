@@ -2,7 +2,8 @@
 greetings = ['hi', 'hello', 'hey', 'hii', 'sup', 'gm', 'helloo', 'hihi']
 
 # greeting responses
-g_responses = []
+g_responses = ['how are you', 'how\'s life', 'how you doing', 'what\'s up', 'what are you up to'
+, 'how\'s your day been']
 
 # words that mean sadness
 sad = ['sad', 'lonely', 'depression', 'depressed', 'sadboi', 'tough', 'sadness', 'alone', 'pain'
