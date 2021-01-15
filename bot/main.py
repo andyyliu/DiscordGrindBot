@@ -2,10 +2,9 @@ import discord, requests, json, os, sys, traceback
 from discord.ext import commands
 from dotenv import load_dotenv
 from messages import messages
-from rng import rng
 
 # cogs
-extensions = ['cog_rng']
+extensions = ['rng']
 
 bot = commands.Bot(command_prefix = '!', case_insensitive = True)
 
@@ -32,13 +31,7 @@ async def on_message(message):
     if phrase:
         for line in phrase:
             await message.channel.send(line)
-    await bot.process_commands(message)
-
-    #Respond to commands (need to change to command function instead of messages)
-    phrase = rng(message)
-    if phrase:
-        for line in phrase:
-            await message.channel.send(line)
+    
     await bot.process_commands(message)
 
 @bot.event
