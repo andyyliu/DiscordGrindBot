@@ -9,3 +9,4 @@ Future Work:
 1. Include economy feature
 2. Include image uploads
 3. !stock command
+4. !remind using time.sleep() to remind users

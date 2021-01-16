@@ -17,7 +17,7 @@ class Messages(commands.Cog):
         
         if any(x in message.content for x in sad):
             inspirational_quote = get_quote()
-            await message.channel.send('Cheer up, life gets better! ' + username + ', here\'s an inspirational quote for you :\)') 
+            await message.channel.send(f'Cheer up, life gets better! ' + username + r', here\'s an inspirational quote for you :\)') 
             await message.channel.send(username  + ': ' + inspirational_quote)
 
     @commands.Cog.listener()
