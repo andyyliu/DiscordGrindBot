@@ -7,7 +7,7 @@ g_responses = ['how are you', 'how\'s life', 'how you doing', 'what\'s up', 'wha
 
 # words that mean sadness
 sad = ['sad', 'lonely', 'depression', 'depressed', 'sadboi', 'tough', 'sadness', 'alone', 'pain'
-,'suicide', 'hate my life', 'i failed', 'want to die', 'kill myself', 'fml', 'kms', 'hang myself', ':\(']
+,'suicide', 'hate my life', 'i failed', 'want to die', 'kill myself', 'fml', 'kms', 'hang myself', ':(']
 
 # 8ball answers
 ball =['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes – definitely', 'You may rely on it'
@@ -16,6 +16,6 @@ ball =['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes – defini
 , 'My reply is no', 'My sources say no', 'Outlook not so good', 'Very doubtful']
 
 # how your day will go
-day = ['your best day ever!!', 'amazing!', 'great!', 'a fun day!' 'decent.', 'really productive.', 'a grind day.'
+day = ['your best day ever!!', 'amazing!', 'great!', 'a fun day!', 'decent.', 'really productive.', 'a grind day.'
 , 'horrible.' , 'wasted on YouTube and social media', 'mysterious...', 'tough, per usual.'
 , '...yikes you don\'t want to know..']
