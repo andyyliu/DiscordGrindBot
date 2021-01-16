@@ -12,14 +12,16 @@ class Messages(commands.Cog):
         username = message.author.mention
         message_array = message.content.split(" ")
 
+        # Send a message if a greeting is sent
         if message_array[0] in greetings:
             await message.channel.send('Hi ' + username + ', ' + g_responses[random.randint(0, len(g_responses) - 1)] +'?')
         
+        # Send a message if a sad message is sent
         if any(x in message.content for x in sad):
             inspirational_quote = get_quote()
-            await message.channel.send(f'Cheer up, life gets better! ' + username + r', here\'s an inspirational quote for you :\)') 
-            await message.channel.send(username  + ': ' + inspirational_quote)
+            await message.channel.send('Cheer up ' + username + ', life gets better! Here\'s an inspirational quote for you :\) \n' + inspirational_quote)
 
+    # Send a message when a new user joins the server
     @commands.Cog.listener()
     async def on_member_join(self, member):
         channel = member.guild.system_channel
