@@ -10,6 +10,7 @@ class Messages(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
         username = message.author.mention
+        message.content = message.content.casefold
         message_array = message.content.split(" ")
 
         # Send a message if a greeting is sent
