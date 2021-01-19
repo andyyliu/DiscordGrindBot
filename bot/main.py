@@ -21,7 +21,9 @@ async def on_ready():
     print('Successfully booted!')
     
 
-# activating the bot
+# Activating the bot
 load_dotenv()
+
+# Insert your custom discord token here (placed in an .env file: DISCORD_TOKEN = *your custom token*)
 TOKEN = os.getenv('DISCORD_TOKEN')
 bot.run(TOKEN, bot = True, reconnect = True)

@@ -9,6 +9,10 @@ class Messages(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message(self, message):
+
+        if message.author.bot:
+            return
+
         username = message.author.mention
         message.content = message.content.casefold()
         message_array = message.content.split(" ")
