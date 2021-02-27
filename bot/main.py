@@ -12,7 +12,6 @@ if __name__ == '__main__':
     for ext in extensions:
         bot.load_extension(ext)
 
-
 # Initial login
 @bot.event
 async def on_ready():
