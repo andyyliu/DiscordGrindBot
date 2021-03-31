@@ -12,13 +12,14 @@ if __name__ == '__main__':
     for ext in extensions:
         bot.load_extension(ext)
 
+
 # Initial login
 @bot.event
 async def on_ready():
     print('\n\nLogged in as {0.user}'.format(bot))
     await bot.change_presence(activity=discord.Game(name="on the grind"))
     print('Successfully booted!')
-    
+
 
 # Insert your custom discord token here (placed in an .env file: DISCORD_TOKEN = *your custom token*)
 load_dotenv()
