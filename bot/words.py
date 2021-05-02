@@ -6,7 +6,7 @@ g_responses = ['how are you', 'how\'s life', 'how you doing', 'what\'s up', 'wha
 , 'how\'s your day been']
 
 # words that mean sadness
-sad = ['sad', 'lonely', 'depression', 'depressed', 'sadboi', 'tough', 'sadness', 'alone', 'pain'
+sad = ['sad', 'lonely', 'depression', 'depressed', 'sadboi', 'sadness', 'alone', 'pain'
 ,'suicide', 'hate my life', 'i failed', 'want to die', 'kill myself', 'fml', 'kms', 'hang myself', ':(']
 
 # 8ball answers
